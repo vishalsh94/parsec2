@@ -109,10 +109,10 @@ linux_binary = Artifact.registerArtifact(
 
 if __name__ == "__main__":
     num_cpus = ['4']
-    benchmarks = ['blackscholes', 'bodytrack', 'canneal', 'dedup','facesim', 'ferret', 'fluidanimate', 'freqmine', 'raytrace', 'streamcluster', 'swaptions', 'vips', 'x264']
+    benchmarks = ['blackscholes'] #, 'bodytrack', 'canneal', 'dedup','facesim', 'ferret', 'fluidanimate', 'freqmine', 'raytrace', 'streamcluster', 'swaptions', 'vips', 'x264']
 
-    sizes = ['simsmall', 'simlarge', 'native']
-    cpus = ['kvm', 'timing']
+    sizes = ['simsmall'] #, 'simlarge', 'native']
+    cpus = ['kvm'] #, 'timing']
 
     for cpu in cpus:
         for num_cpu in num_cpus:
