@@ -11,4 +11,4 @@ disk-image/parsec-benchmark/
 disk-image/packer_cache
 gem5
 linux-stable/
-
+db/

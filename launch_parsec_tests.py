@@ -18,7 +18,7 @@ packer = Artifact.registerArtifact(
 )
 
 experiments_repo = Artifact.registerArtifact(
-    command = 'git clone https://your-remote-add/parsec-tests.git',
+    command = 'git clone https://github.com/vishalsh94/parsec2.git',
     typ = 'git repo',
     name = 'parsec-tests',
     path =  './',
